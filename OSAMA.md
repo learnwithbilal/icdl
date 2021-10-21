@@ -1,4 +1,4 @@
-# Welcome to bilal company <br>![logo photo](https://github.com/Osama-alaranji/icdl/blob/main/logo.png)
+# Welcome to Osama company <br>![logo photo](https://github.com/Osama-alaranji/icdl/blob/main/logo.png)
 ## 1 -Learn how to setup python and install django <br><br>
 ### 1- Go to python website to download python<br><br>
 ![python download](https://github.com/Osama-alaranji/icdl/blob/main/1.png)

@@ -19,7 +19,7 @@ $('#access').click(function(){
     window.location.href = 'pages/access.html';
 })
 
-$('#access').click(function(){
+$('#powerpoint').click(function(){
     window.location.href = 'pages/powerpoint.html';
 })
 
@@ -28,7 +28,7 @@ $('#outlook').click(function(){
 })
 
 $('#it').click(function(){
-    window.location.href = 'pages/outlook.html';
+    window.location.href = 'pages/it.html';
 })
 
 
@@ -42,5 +42,28 @@ $('#points').click(function(){
 
 
 $('#intro').click(function(){
-    window.location.href = 'files/pdf/01.pdf';
+    window.location.href = '../files/pdf/01.pdf';
+})
+
+$('#intro01').click(function(){
+    window.location.href = '../files/pdf/02.pdf';
+})
+
+$('#intro02').click(function(){
+    window.location.href = '../files/pdf/03.pdf';
+})
+
+$('#ext').click(function(){
+    window.location.href = '../pages/ext.html';
+   
+})
+
+$('#backToExt').click(function(){
+    window.location.href = '../pages/essential.html';
+   
+})
+
+$('#mailing').click(function(){
+    window.location.href = '../files/word/example_mailing.pdf';
+
 })

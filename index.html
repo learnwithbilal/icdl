@@ -4,38 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>ICDL</title>
   </head>
   <body dir="rtl">
-    <h2>
-      <b>I</b>nternational <b>C</b>omputer <b>D</b>riving <b>L</b>icense -
-      الرخصة الدولية لقيادة الحاسوب
-    </h2>
-    <h3>
-      تتألف الرخصة الدولية من سبعة مواد رئيسية يجب إجتيازها للحصول على الرخصة
-      الدولية:
-    </h3>
-    <ol dir="ltr">
-      <a href="pages/essential.html"
-        ><li>Computer Essential - أساسيات الحاسوب</li></a
-      >
-      <li>Microsoft Word - معالجة النصوص</li>
-      <a href="pages/excel.html"
-        ><li>Microsoft Excel - الجداول الإلكترونية</li></a
-      >
-      <li>Microsoft Access - قواعد البيانات</li>
-      <li>Microsoft PowerPoint - العروض التقديمية</li>
-      <li>Microsoft Outlook - البريد الإلكتروني</li>
-      <li>IT Security - أمن المعلومات</li>
-    </ol>
-    <hr />
-    <div dir="ltr">
-      <ul>
-        <li><a href="pages/names.html">Scores</a></li>
-        <br />
-        <li><a href="pages/attendance.html">Attendance</a></li>
-      </ul>
+    <br />
+    <div class="container text-center">
+      <div class="row">
+        <h4>
+          <b>I</b>nternational <b>C</b>omputer <b>D</b>riving <b>L</b>icense -
+          الرخصة الدولية لقيادة الحاسوب
+        </h4>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <button
+            id="ess_comp"
+            class="btn btn-light text-center m-3"
+            style="width: 200px"
+          >
+            أساسيات الحاسوب
+          </button>
+          <button id="word" class="btn btn-primary m-3" style="width: 200px">
+            معالجة النصوص
+          </button>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <button id="excel" class="btn btn-success m-3" style="width: 200px">
+            الجداول الإلكترونية
+          </button>
+          <button id="access" class="btn btn-danger m-3" style="width: 200px">
+            قواعد البيانات
+          </button>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <button
+            id="powerpoint"
+            class="btn btn-warning m-3"
+            style="width: 200px"
+          >
+            العروض التقديمية
+          </button>
+          <button id="outlook" class="btn btn-info m-3" style="width: 200px">
+            البريد الإلكتروني
+          </button>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+          <button id="it" class="btn btn-secondary m-3" style="width: 200px">
+            أمن المعلومات
+          </button>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <button
+            id="attendance"
+            class="btn btn-primary m-3"
+            style="width: 200px"
+          >
+            جدول الحضور
+          </button>
+        </div>
+        <div class="col-md-6">
+          <button id="points" class="btn btn-success m-3" style="width: 200px">
+            جدول النقاط
+          </button>
+        </div>
+      </div>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.min.js"></script>
     </div>
   </body>
 </html>

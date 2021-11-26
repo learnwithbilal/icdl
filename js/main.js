@@ -41,7 +41,7 @@ $("#it").click(function () {
 // });
 
 // $("#points").click(function () {
-//   window.location.href = "pages/points.html";
+//   window.location.href = "pages/points.html";;
 // });
 
 $("#intro").click(function () {

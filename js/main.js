@@ -8,7 +8,7 @@ $("#ess_comp").click(function () {
 
 $("#word").click(function () {
   window.location.href =
-    "https://drive.google.com/file/d/1Jm3zxbya-3BF1y8hneooy4HHLO146m5Y/view?usp=sharing";
+    "https://drive.google.com/file/d/1FPS7rtM0lydbwT_yQ4cZKLHgHhkNBR2U/view?usp=sharing";
 });
 
 $("#excel").click(function () {

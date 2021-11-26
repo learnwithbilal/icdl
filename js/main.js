@@ -3,7 +3,8 @@ $(".back").click(function () {
 });
 
 $("#ess_comp").click(function () {
-  window.location.href = "pages/essential.html";
+  window.location.href =
+    "https://docs.google.com/presentation/d/1vw8xxuu28cthOpkdOgmRaOoeNVfTHXD51I9b8zTwj_M/edit?usp=sharing";
 });
 
 $("#word").click(function () {
